@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(background.png);
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.box {
+  background-color: #2f2c33;
+  width: 835px;
+  height: 530px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.box .pro {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+.pro img {
+  height: 80%;
+  width: 100%;
+  z-index: 1;
+}
+
+.info {
+  /* padding: 10% 5%; */
+  padding: 35px 25px;
+}
+
+.form input {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+input {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  color: white;
+  border: 1px solid #78757c;
+  border-radius: 5px;
+  position: relative;
+  background: 0;
+  width: 100%;
+}
+
+.ex {
+  width: 50%;
+  float: left;
+}
+.ex2 {
+  width: 40%;
+  float: right;
+}
+
+input[type="month"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input[type="month"]::-webkit-calendar-picker-indicator {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input,
+button:focus {
+  outline: 0;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 700;
+  color: #78757c;
+  text-align: center;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 25px;
+  color: aliceblue;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: rgb(37, 38, 39);
+  margin-left: 20px;
+}
+
+h3 {
+  color: green;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+button {
+  background: linear-gradient(0deg, #b3b3cf, #e2c3cb);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
